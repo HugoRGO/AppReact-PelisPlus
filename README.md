@@ -1,3 +1,15 @@
+### Repositorio de App-React-PelisPlus 📽
+
+***Descripción:***
+
+En este proyecto se intenta  desarrollar una aplicación FULLSTACK integrando MONGO, EXPRESS, REACT Y NODEJS, en el cual se comercialice un producto vía pagos online. Se utilizará PayPal Sandbox para simular los pagos y la autenticación como una de las caracteristicas principales.
+
+- Para visitar la pagina de despliege de [*REACT*.]("REACT")
+- Para visitar la pagina de despliege de [*API*.](https://api-pelisplus.vercel.app/ "API")
+- Para visitar el repositorio de [*API*.](https://github.com/HugoRGO/Api_PelisPlus "API")
+
+Gracias por visitar. 😊
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
