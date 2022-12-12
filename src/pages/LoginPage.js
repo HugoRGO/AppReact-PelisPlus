@@ -30,7 +30,10 @@ const LoginPage = () => {
   return isLoading ? (
     <Loader />
   ) : (
-    <Form onSubmit={onSubmited}>
+    <>
+    <h2 className="my-3">Bienvenido de Nuevo</h2>
+    <h4 className="mt-3 mb-0">Por favor introduce la informacion de tu cuenta.</h4>
+    <Form onSubmit={onSubmited} className="my-5">
       <Form.Group className="mb-3" controlId="correo">
         <Form.Label>Correo</Form.Label>
         <Form.Control
@@ -50,10 +53,11 @@ const LoginPage = () => {
         />
       </Form.Group>
 
-      <Button variant="primary" type="submit">
+      <Button variant="primary" type="submit" className="bg-gradient">
         Iniciar sesión
       </Button>
     </Form>
+    </>
   );
 };
 
