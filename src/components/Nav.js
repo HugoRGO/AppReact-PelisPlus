@@ -2,6 +2,7 @@ import { useContext } from "react";
 import { Nav, Navbar, Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { UserContext } from "../context/UserContext";
+import Icon from './favicon.ico';
 
 const NavComponent = () => {
   const {
@@ -32,9 +33,12 @@ const NavComponent = () => {
   ];
 
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="light" expand="lg" className="navbar-dark bg-dark bg-gradient">
       <Container>
-        <Navbar.Brand as={Link} to="/">PelisPlus</Navbar.Brand>
+        <Navbar.Brand as={Link} to="/"> 
+        <img alt="Icon" src={Icon} width="30" height="30" className="d-inline-block align-top mx-2"/> 
+        PelisPlus
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

@@ -2,11 +2,11 @@
 
 ***Descripción:***
 
-> **El proyecto sigue en desarrollo, actualmente solo cuenta con el deploy de la API en Vercel y el respositorio basico de la misma, falta el consumo de la API y APP con React.**
+> **El proyecto sigue en desarrollo**
 
 En este proyecto se intenta  desarrollar una aplicación FULLSTACK integrando MONGO, EXPRESS, REACT Y NODEJS, en el cual se comercialice un producto vía pagos online. Se utilizará PayPal Sandbox para simular los pagos y la autenticación como una de las caracteristicas principales.
 
-- Para visitar la pagina de despliege de [*REACT*.]("REACT")
+- Para visitar la pagina de despliege de [*REACT*.](https://app-react-pelis-plus.vercel.app/ "REACT")
 - Para visitar la pagina de despliege de [*API*.](https://api-pelisplus.vercel.app/ "API")
 - Para visitar el repositorio de [*API*.](https://github.com/HugoRGO/Api_PelisPlus "API")
 
